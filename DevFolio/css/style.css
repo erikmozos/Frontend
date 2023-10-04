@@ -80,9 +80,17 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: grey;
+  background-color: white;
 }
-
+.testimonials .description,
+.testimonials .author {
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.testimonials .author-test .author {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .overlay-mf {
   position: absolute;
   top: 0;
@@ -91,6 +99,9 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: .7;
+}
+.testimonials h3 {
+  color: black;
 }
 
 .paralax-mf {
@@ -784,9 +795,12 @@ a:hover {
 ======================================*/
 
 .counter-box {
-  color: #fff;
+  color: white;
   text-align: center;
+  text-decoration: solid;
+  font-weight: bold;
 }
+
 
 .counter-ico {
   margin-bottom: 1rem;
@@ -796,13 +810,14 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px blue;
 }
 
 .counter-num .counter {
   font-size: 2rem;
   margin-bottom: 0;
 }
+
 
 /*======================================
 //--//-->   PORTFOLIO
@@ -1412,4 +1427,3 @@ footer .credits a {
     margin-left: -4cm; /* Ajusta el valor según tus necesidades */
   }
 }
-
