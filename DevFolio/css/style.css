@@ -810,9 +810,14 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px blue;
+  box-shadow: 0 0 0 10px black;
+  border-radius: 50%;
+  transition: background-color 0.5s;
 }
-
+.counter-ico .ico-circle:hover {
+  background-color: black;
+  box-shadow: 0 0 0 10px white;
+}
 .counter-num .counter {
   font-size: 2rem;
   margin-bottom: 0;
